@@ -3,10 +3,12 @@
  */
 
 public class Calculator {
-    //Результат вычисления
+    /**
+     * Результат вычисления
+     */
     private int result;
 
-    /*
+    /**
     * Суммируем аргументы.
     * @param params Аргументы суммирования
     */
@@ -16,7 +18,7 @@ public class Calculator {
         }
     }
 
-    /*
+    /**
     * Вычитаем аргументы.
     * @param params Аргументы разницы
     */
@@ -30,7 +32,7 @@ public class Calculator {
         }
     }
 
-    /*
+    /**
     * Умножаем аргументы.
     * @param params Аргументы умножения
     */
@@ -44,7 +46,7 @@ public class Calculator {
         }
     }
 
-    /*
+    /**
     * Делим аргументы.
     * @param params Аргументы деления
     */
@@ -58,7 +60,7 @@ public class Calculator {
         }
     }
 
-    /*
+    /**
    * Находим степень аргумента.
    * @param params Аргументы суммирования
    */
@@ -72,18 +74,17 @@ public class Calculator {
         }
     }
 
-    /*Получить результат.
+    /**Получить результат.
     * @return результат вычисления.
     */
     public int getResult(){
         return this.result;
     }
 
-    /*Очистить результат вычисления.
+    /**Очистить результат вычисления.
     * @return результат вычисления.
     */
     public void cleanResult(){
         this.result = 0;
     }
 }
-
